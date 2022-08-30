@@ -1,1 +1,37 @@
-안녕하세요
+git tutorial 
+
+1. 깃허브 다운로드 
+
+2. 관리자버전으로 git bash 실행 
+- 깃 설치 확인
+git
+- 깃 버전 확인 
+git --version
+- user 이름, 이메일 설정
+git config --global user.name catspie
+git config --global user.email catspie92@gmail.com
+
+- 등록된 사용자 확인
+git config --list
+
+3.  c드라이브에 폴더 생성 
+- 폴더 이동 
+(기본 폴더는 C:\사용자\사용자명)
+cd C:/만든 폴더명
+
+- 저장소 복제 (프로젝트 주소)
+git clone https://github.com/catspie/first_project.git
+
+- window에서 git 폴더 안보이면 
+옵션 - 보기 - 알려진 파일 형식의 파일 확장명 숨기기 체크 해제 
+
+- 만든 폴더에 txt 파일 작성, "Hello World"
+
+4. cmd 실행 
+cd 파일명 
+- 파일 추가 
+git add document.txt
+- 파일 커밋
+git commit -m "Add Text File [txt파일명.txt]"
+- 깃허브에 올리기 
+git push
